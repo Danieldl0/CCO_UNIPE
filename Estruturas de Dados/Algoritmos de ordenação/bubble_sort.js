@@ -17,7 +17,7 @@ function bubble_sort(array){
 
     for(let i = 0; i < tamanho; i++){
         for(let j = 0; j < tamanho; j++){
-            if(array[j] > array[j+1]){
+            if(array[j] > array[j+1]){ // verifica se o próximo é menor e faz a troca
                 let aux = array[j];
                 array[j] = array[j+1];
                 array[j+1] = aux;
